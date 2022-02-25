@@ -1,0 +1,1 @@
+[a.com][b.com](google.com)

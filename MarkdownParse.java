@@ -27,7 +27,7 @@ public class MarkdownParse {
                 }
             if (nextCloseBracket == openParen - 1 
                 && markdown.indexOf("!") != nextOpenBracket - 1) {
-                    toReturn.add(markdown.substring(openParen + 1, closeParen));
+                    toReturn.add(markdown.substring(openParen + 1, closeParen).trim());
            }
             currentIndex = closeParen + 1;
         }
